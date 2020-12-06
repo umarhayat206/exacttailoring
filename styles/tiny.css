@@ -1,0 +1,14 @@
+.txtHeader{font-size:15px;}	
+    .txtHeader a:link, .txtHeader a:visited{}
+    .txtHeader a:hover, .txtHeader a:active{text-decoration:underline;}	
+
+.txtTitle{font-size:13px;}	
+    .txtTitle a:link, .txtTitle a:visited{}
+    .txtTitle a:hover, .txtTitle a:active{text-decoration:underline;}
+    
+.txtMenu{font-size:13px; font-weight:bold;}	
+    .txtMenu a:link, .txtMenu a:visited{}
+    .txtMenu a:hover, .txtMenu a:active{text-decoration:underline;}
+
+
+

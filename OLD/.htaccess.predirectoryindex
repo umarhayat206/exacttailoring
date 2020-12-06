@@ -1,0 +1,36 @@
+# For security reasons, Option followsymlinks cannot be overridden.
+#Options +FollowSymlinks
+Options +SymLinksIfOwnerMatch
+RewriteEngine on
+
+# -Extensionless urls- ONLINE ONLY
+#RewriteBase /exact/
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteCond %{REQUEST_URI} !/$
+RewriteRule (.*) $1\.php [L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)/$ /$1 [R=301,L]
+
+# -Initial Home page rewrite-
+RewriteRule ^home$ index.php
+
+# -key = value rewrites-
+RewriteRule ^([A-Za-z0-9,@'_-]+)/?([A-Za-z0-9,@'_-]+)/?$ exact-shop.php?$1=$2 [L,QSA]
+RewriteRule ^([A-Za-z0-9,@'_-]+)/?([A-Za-z0-9,@'_-]+)/?([A-Za-z0-9,@'_-]+)/?$ exact-shop.php?$1=$2&$3 [L,QSA]
+#RewriteRule ^([A-Za-z0-9,@'_-]+)/?([A-Za-z0-9,@'_-]+)/?([A-Za-z0-9,@'_-]+)/?([A-Za-z0-9,@'_-]+)/?([A-Za-z0-9,@'_-]+)/?([A-Za-z0-9,@'_-]+)/?$ exact-shop.php?$1=$2&$3=$4&$5=$6 [L,QSA]
+#RewriteRule ^([A-Za-z0-9,@'_-]+)/?([A-Za-z0-9,@'_-]+)/?([A-Za-z0-9,@'_-]+)/?([A-Za-z0-9,@'_-]+)/?([A-Za-z0-9,@'_-]+)/?([A-Za-z0-9,@'_-]+)/?([A-Za-z0-9,@'_-]+)/?([A-Za-z0-9,@'_-]+)/?$ browse.php?$1=$2&$3=$4&$5=$6&$7=$8 [L,QSA]
+#RewriteRule ^([A-Za-z0-9,@'_-]+)?.*$ $1.php
+#ErrorDocument 404 /error_404.php
+
+# -FrontPage-
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+
+<Limit GET POST>
+order deny,allow
+deny from all
+allow from all
+</Limit>
+<Limit PUT DELETE>
+order deny,allow
+deny from all
+</Limit>

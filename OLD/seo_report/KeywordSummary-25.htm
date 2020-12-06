@@ -1,0 +1,284 @@
+<html>
+	<!-- Created on 24 พฤศจิกายน 2552 at 11:36 AM -->
+<!-- BEGIN REPORT HEADER -->
+	
+	<head>
+	<title>
+				Search Positions for http://www.exacttailoring.com/
+	</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" xmlns="">
+		<meta HTTP-EQUIV="pragma" CONTENT="no-cache">
+		<meta HTTP-EQUIV="Cache-control" CONTENT="no-cache">
+				
+	     <link href="styles.css" rel="stylesheet" type="text/css">
+	     
+	<script language="javascript1.2" src="rep_functions.js"></script>     
+	<script language="javascript1.2">
+		var CurPage = 3;
+
+		var Reports = new Array();
+Reports[0] = new Array('Summary', 'This report provides a high level overview of the metrics that affect your site\'s visibility.','menu.htm',65)
+Reports[1] = new Array('Visibility', 'This report shows how many web pages from a web site are published by the leading search engines along with how many links from other sites are pointing at the home page of your site.','BackLinks-25.htm',60)
+Reports[2] = new Array('Engine', 'This report shows the current rank, previous rank and change in a keyword’s position categorized by search engine.','EngineSummary-25.htm',60)
+Reports[3] = new Array('Keyword', 'This report displays the current rank, previous rank and change in a keyword’s position categorized by keyword for each selected search engine.','KeywordSummary-25.htm',60)
+Reports[4] = new Array('Listings', 'This report shows the position of each keyword found, along with the actual listing text displayed in the search engine results page.','Summary-25.htm',60)
+Reports[5] = new Array('Detail', 'This report displays the search engine listings for a keyword by search engine providing visibility into your position relative to the competition.','Detail-Ask-25.htm',60)
+Reports[6] = new Array('Alert', 'This report shows listings that have dropped in ranking since the last run of a mission.','Alert-25.htm',40)
+Reports[7] = new Array('Trend', 'This report shows changes in keyword position over time.','Trend-Ask-25.htm',45)
+Reports[8] = new Array('Competitive', 'This report displays keyword positions in relation to competing web sites.','Compet-Ask-25.htm',75)
+Reports[9] = new Array('URL/Keyword', 'This report shows the position of each keyword for each keyword by URL for each search engine.','PageKey-25.htm',75)
+Reports[10] = new Array('Log', 'This report displays the details of each mission run.','Log-25.htm',40)
+Reports[11] = new Array('URL', 'This report shows if a URL is visible in the selected search engines without considering keyword ranking.','URLVer-25.htm',40)
+
+
+		var DateStr = '24 พฤศจิกายน 2552'
+		var DomainsStr = 'www.exacttailoring.com'
+		var HelpURL = 'http://www.webposition.com/wp400/faq/'	
+					var Suppress = true;
+		
+		EngineKeywordList = new Array();
+		EngineKeywordList['Ask']= new Array('Tailored Shirts','Tailor Made Shirts','Made to Measure Shirts','Custom Made Shirts','Hand made shirts','Extra Large Shirts','Custom Shirts','Silk Shirts','Egyptian Cotton Shirts','Team Shirts','Dress Shirts','Outsize Shirts','Big Mens Shirts','Large Mens Shirts','Designer shirts','Cotton shirts','Oxford Shirts','Luxury Shirts','Online Made to Measure','Bespoke Tailors');
+EngineKeywordList['Google']= new Array('Tailored Shirts','Tailor Made Shirts','Made to Measure Shirts','Custom Made Shirts','Hand made shirts','Extra Large Shirts','Custom Shirts','Silk Shirts','Egyptian Cotton Shirts','Team Shirts','Dress Shirts','Outsize Shirts','Big Mens Shirts','Large Mens Shirts','Designer shirts','Cotton shirts','Oxford Shirts','Luxury Shirts','Online Made to Measure','Bespoke Tailors');
+EngineKeywordList['MSN']= new Array('Tailored Shirts','Tailor Made Shirts','Made to Measure Shirts','Custom Made Shirts','Hand made shirts','Extra Large Shirts','Custom Shirts','Silk Shirts','Egyptian Cotton Shirts','Team Shirts','Dress Shirts','Outsize Shirts','Big Mens Shirts','Large Mens Shirts','Designer shirts','Cotton shirts','Oxford Shirts','Luxury Shirts','Online Made to Measure','Bespoke Tailors');
+EngineKeywordList['Yahoo Web Results']= new Array('Tailored Shirts','Tailor Made Shirts','Made to Measure Shirts','Custom Made Shirts','Hand made shirts','Extra Large Shirts','Custom Shirts','Silk Shirts','Egyptian Cotton Shirts','Team Shirts','Dress Shirts','Outsize Shirts','Big Mens Shirts','Large Mens Shirts','Designer shirts','Cotton shirts','Oxford Shirts','Luxury Shirts','Online Made to Measure','Bespoke Tailors');
+
+
+		var DivCnt = 0;
+	
+		var ColSet = new Array('Engine / URL','Current Position','Previous Position','Change');
+		var ColWidths = new Array('444','125','125','100');
+	
+		DataSet = new Array();
+		DataSet[0] = new Array('Tailored Shirts','Ask','No page found.','Not in first 30.','NA','NA');
+DataSet[1] = new Array('Tailor Made Shirts','Ask','No page found.','Not in first 30.','NA','NA');
+DataSet[2] = new Array('Made to Measure Shirts','Ask','http://www.exacttailoring.com/','16','NA','NA');
+DataSet[3] = new Array('Custom Made Shirts','Ask','No page found.','Not in first 30.','NA','NA');
+DataSet[4] = new Array('Hand made shirts','Ask','No page found.','Not in first 30.','NA','NA');
+DataSet[5] = new Array('Extra Large Shirts','Ask','No page found.','Not in first 30.','NA','NA');
+DataSet[6] = new Array('Custom Shirts','Ask','No page found.','Not in first 30.','NA','NA');
+DataSet[7] = new Array('Silk Shirts','Ask','No page found.','Not in first 30.','NA','NA');
+DataSet[8] = new Array('Egyptian Cotton Shirts','Ask','No page found.','Not in first 30.','NA','NA');
+DataSet[9] = new Array('Team Shirts','Ask','No page found.','Not in first 30.','NA','NA');
+DataSet[10] = new Array('Dress Shirts','Ask','No page found.','Not in first 30.','NA','NA');
+DataSet[11] = new Array('Outsize Shirts','Ask','No page found.','Not in first 30.','NA','NA');
+DataSet[12] = new Array('Big Mens Shirts','Ask','No page found.','Not in first 30.','NA','NA');
+DataSet[13] = new Array('Large Mens Shirts','Ask','No page found.','Not in first 30.','NA','NA');
+DataSet[14] = new Array('Designer shirts','Ask','No page found.','Not in first 30.','NA','NA');
+DataSet[15] = new Array('Cotton shirts','Ask','No page found.','Not in first 30.','NA','NA');
+DataSet[16] = new Array('Oxford Shirts','Ask','No page found.','Not in first 30.','NA','NA');
+DataSet[17] = new Array('Luxury Shirts','Ask','No page found.','Not in first 30.','NA','NA');
+DataSet[18] = new Array('Online Made to Measure','Ask','No page found.','Not in first 30.','NA','NA');
+DataSet[19] = new Array('Bespoke Tailors','Ask','No page found.','Not in first 30.','NA','NA');
+DataSet[20] = new Array('Tailored Shirts','Google','No page found.','Not in first 30.','NA','NA');
+DataSet[21] = new Array('Tailor Made Shirts','Google','No page found.','Not in first 30.','NA','NA');
+DataSet[22] = new Array('Made to Measure Shirts','Google','http://www.exacttailoring.com/','23','NA','NA');
+DataSet[23] = new Array('Custom Made Shirts','Google','No page found.','Not in first 30.','NA','NA');
+DataSet[24] = new Array('Hand made shirts','Google','No page found.','Not in first 30.','NA','NA');
+DataSet[25] = new Array('Extra Large Shirts','Google','No page found.','Not in first 30.','NA','NA');
+DataSet[26] = new Array('Custom Shirts','Google','No page found.','Not in first 30.','NA','NA');
+DataSet[27] = new Array('Silk Shirts','Google','No page found.','Not in first 30.','NA','NA');
+DataSet[28] = new Array('Egyptian Cotton Shirts','Google','No page found.','Not in first 30.','NA','NA');
+DataSet[29] = new Array('Team Shirts','Google','No page found.','Not in first 30.','NA','NA');
+DataSet[30] = new Array('Dress Shirts','Google','No page found.','Not in first 30.','NA','NA');
+DataSet[31] = new Array('Outsize Shirts','Google','No page found.','Not in first 30.','NA','NA');
+DataSet[32] = new Array('Big Mens Shirts','Google','No page found.','Not in first 30.','NA','NA');
+DataSet[33] = new Array('Large Mens Shirts','Google','No page found.','Not in first 30.','NA','NA');
+DataSet[34] = new Array('Designer shirts','Google','No page found.','Not in first 30.','NA','NA');
+DataSet[35] = new Array('Cotton shirts','Google','No page found.','Not in first 30.','NA','NA');
+DataSet[36] = new Array('Oxford Shirts','Google','No page found.','Not in first 30.','NA','NA');
+DataSet[37] = new Array('Luxury Shirts','Google','No page found.','Not in first 30.','NA','NA');
+DataSet[38] = new Array('Online Made to Measure','Google','No page found.','Not in first 30.','NA','NA');
+DataSet[39] = new Array('Bespoke Tailors','Google','No page found.','Not in first 30.','NA','NA');
+DataSet[40] = new Array('Tailored Shirts','MSN','No page found.','Not in first 30.','NA','NA');
+DataSet[41] = new Array('Tailor Made Shirts','MSN','No page found.','Not in first 30.','NA','NA');
+DataSet[42] = new Array('Made to Measure Shirts','MSN','No page found.','Not in first 30.','NA','NA');
+DataSet[43] = new Array('Custom Made Shirts','MSN','No page found.','Not in first 30.','NA','NA');
+DataSet[44] = new Array('Hand made shirts','MSN','No page found.','Not in first 30.','NA','NA');
+DataSet[45] = new Array('Extra Large Shirts','MSN','No page found.','Not in first 30.','NA','NA');
+DataSet[46] = new Array('Custom Shirts','MSN','No page found.','Not in first 30.','NA','NA');
+DataSet[47] = new Array('Silk Shirts','MSN','No page found.','Not in first 30.','NA','NA');
+DataSet[48] = new Array('Egyptian Cotton Shirts','MSN','No page found.','Not in first 30.','NA','NA');
+DataSet[49] = new Array('Team Shirts','MSN','No page found.','Not in first 30.','NA','NA');
+DataSet[50] = new Array('Dress Shirts','MSN','No page found.','Not in first 30.','NA','NA');
+DataSet[51] = new Array('Outsize Shirts','MSN','No page found.','Not in first 30.','NA','NA');
+DataSet[52] = new Array('Big Mens Shirts','MSN','No page found.','Not in first 30.','NA','NA');
+DataSet[53] = new Array('Large Mens Shirts','MSN','No page found.','Not in first 30.','NA','NA');
+DataSet[54] = new Array('Designer shirts','MSN','No page found.','Not in first 30.','NA','NA');
+DataSet[55] = new Array('Cotton shirts','MSN','No page found.','Not in first 30.','NA','NA');
+DataSet[56] = new Array('Oxford Shirts','MSN','No page found.','Not in first 30.','NA','NA');
+DataSet[57] = new Array('Luxury Shirts','MSN','No page found.','Not in first 30.','NA','NA');
+DataSet[58] = new Array('Online Made to Measure','MSN','No page found.','Not in first 30.','NA','NA');
+DataSet[59] = new Array('Bespoke Tailors','MSN','No page found.','Not in first 30.','NA','NA');
+DataSet[60] = new Array('Tailored Shirts','Yahoo Web Results','No page found.','Not in first 30.','NA','NA');
+DataSet[61] = new Array('Tailor Made Shirts','Yahoo Web Results','No page found.','Not in first 30.','NA','NA');
+DataSet[62] = new Array('Made to Measure Shirts','Yahoo Web Results','No page found.','Not in first 30.','NA','NA');
+DataSet[63] = new Array('Custom Made Shirts','Yahoo Web Results','No page found.','Not in first 30.','NA','NA');
+DataSet[64] = new Array('Hand made shirts','Yahoo Web Results','No page found.','Not in first 30.','NA','NA');
+DataSet[65] = new Array('Extra Large Shirts','Yahoo Web Results','No page found.','Not in first 30.','NA','NA');
+DataSet[66] = new Array('Custom Shirts','Yahoo Web Results','No page found.','Not in first 30.','NA','NA');
+DataSet[67] = new Array('Silk Shirts','Yahoo Web Results','No page found.','Not in first 30.','NA','NA');
+DataSet[68] = new Array('Egyptian Cotton Shirts','Yahoo Web Results','No page found.','Not in first 30.','NA','NA');
+DataSet[69] = new Array('Team Shirts','Yahoo Web Results','No page found.','Not in first 30.','NA','NA');
+DataSet[70] = new Array('Dress Shirts','Yahoo Web Results','No page found.','Not in first 30.','NA','NA');
+DataSet[71] = new Array('Outsize Shirts','Yahoo Web Results','No page found.','Not in first 30.','NA','NA');
+DataSet[72] = new Array('Big Mens Shirts','Yahoo Web Results','No page found.','Not in first 30.','NA','NA');
+DataSet[73] = new Array('Large Mens Shirts','Yahoo Web Results','No page found.','Not in first 30.','NA','NA');
+DataSet[74] = new Array('Designer shirts','Yahoo Web Results','No page found.','Not in first 30.','NA','NA');
+DataSet[75] = new Array('Cotton shirts','Yahoo Web Results','No page found.','Not in first 30.','NA','NA');
+DataSet[76] = new Array('Oxford Shirts','Yahoo Web Results','No page found.','Not in first 30.','NA','NA');
+DataSet[77] = new Array('Luxury Shirts','Yahoo Web Results','No page found.','Not in first 30.','NA','NA');
+DataSet[78] = new Array('Online Made to Measure','Yahoo Web Results','No page found.','Not in first 30.','NA','NA');
+DataSet[79] = new Array('Bespoke Tailors','Yahoo Web Results','No page found.','Not in first 30.','NA','NA');
+
+
+		function SetKeys()
+		{
+			var obj = document.frmJump1.cboKeyList
+			var KeyList = new Array();
+			for (var i=(obj.options.length-1); i>=0; i--)
+			{ 
+				obj.options[i] = null; 
+			} 
+			for(var i in DataSet )
+			{
+				var fnd = 0;
+				for(var j in KeyList)
+				{
+					if(KeyList[j] == DataSet[i][0])
+						fnd = 1;
+				}
+				if(fnd == 0)
+				{
+					obj.options[obj.length] = new Option( DataSet[i][0], DataSet[i][0], false, false);
+					KeyList[KeyList.length] = DataSet[i][0]
+				}
+			}
+
+		}
+	</script>
+
+</head>
+
+<body topmargin="0" onLoad="Javascript:SetKeys();">
+<BR>
+<a name="BACKTOTOP"></a>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<!-- customer Logo -->
+
+  <tr>
+    <td align="center">
+
+       <div class="removePrint">
+      <table class="datatable" cellspacing="0" cellpadding="0" bgcolor="FFFFFF">
+
+
+              <!--BeginOptionalSection-->
+
+              <tr>
+                <td>
+                                  </td>
+                <td>
+								      	<div align="right"><img SRC="Silvermover_Chrome_Horizon-2.png" alt="Search Positions for http://www.exacttailoring.com/"></div>
+
+				
+
+
+                </td>
+              </tr>
+
+
+			  <!--EndOptionalSection-->
+            </table>
+	  </div>
+      <!--BeginOptionalSection-->
+
+      <!--BeginOptionalSection-->
+<script language="Javascript">
+	DrawHeader();
+	DrawTitle();
+</script>
+	<tr height="27" bgcolor="FAFAFF" class="blk_Font_11px">
+		<td style="padding-left: 16px;">Keyword:&nbsp;&nbsp;
+      				<form name="frmJump1" style="display:inline;">
+				<select name="cboJumpList" class="button" id="cboKeyList" >
+				</select>
+				&nbsp;<input type="button" class="button" name="Go" value="Go" OnClick="Javascript:Jump(document.frmJump1.cboKeyList)">
+
+				</form>
+		</td>
+		<td align="right" style="padding-right: 16px;">
+ 			<img border="0" id="i-AllNodes" align="bottom" title="Collapse All Nodes" src="maximize2.gif" onclick="javascript:ToggleAllNodes(this, 'Nodes');">
+		</td>
+	</tr>
+<tr><td colspan="2" bgcolor="FAFAFF" align="center">
+
+<BR>
+<form name="ReportData">
+
+<script>
+		Draw2DTables(DataSet, ColSet);
+</script>
+
+      <br>
+      
+
+<table class="reportheader" cellspacing="0" cellpadding="0">
+        <tr> 
+		<td class="headerleft"></td>
+		<td class="headercenter" >Help Card</td>
+		<td class="headerright"></td>
+        </tr>
+	</table>
+<table class="reportbody" cellspacing="0" cellpadding="0">
+	<tr  bgcolor="#EDEDED">
+	<td width="6"></td>
+	<td>
+					<BR>
+
+	 
+		<!--BeginNotInFirst-->
+		  <span class="blk_Font_11px_Bold">Not in first
+        30 </span> <span class="blk_Font_11px">means your Web site was not found in the top 30 positions.
+        		  <!--EndNotInFirst-->
+			<br>
+            <span class="blk_Font_11px_Bold">NA</span> <span class="blk_Font_11px">means Non-Applicable or
+            no prior day's positions to report yet.</span><br>
+            <span class="blk_Font_11px_Bold">NM</span> <span class="blk_Font_11px">means No Matches were found
+            for that keyword search.</span>
+	           <br>
+            <span class="blk_Font_11px_Bold">Previous Position</span> 
+			<span class="blk_Font_11px"> =  Previous Position as of 
+			 
+			 </span>
+            <br>
+
+	</td>
+	<td width="6"></td></tr>
+	</table>
+<BR>
+
+
+      <table class="datatable" cellspacing="0" cellpadding="0">
+    <!-- BEGIN REPORT FOOTER -->
+	<tr> 
+        <td> 
+	<div align="center">
+					<span class="blk_Font_11px">Report created by </span><A HREF="http://silvermover.com">Silvermover company</A>.						
+			</div>
+		<BR>
+
+	</td>
+        </tr>
+        	<!-- END REPORT FOOTER -->	
+	</table>
+	  
+  </form>
+  
+</td></tr></table>
+
+</td></tr></table>
+
+
+</body>
+<!-- Cfg Version: 683 -->
+</html>

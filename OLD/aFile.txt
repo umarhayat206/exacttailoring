@@ -1,0 +1,47 @@
+POSTED STRING :- 
+ test_ipn=1
+payment_type=instant
+payment_date=19:58:24 Aug. 23, 2009 PDT
+payment_status=Completed
+address_status=confirmed
+payer_status=verified
+first_name=John
+last_name=Smith
+payer_email=buyer@paypalsandbox.com
+payer_id=TESTBUYERID01
+address_name=John Smith
+address_country=United States
+address_country_code=US
+address_zip=95131
+address_state=CA
+address_city=San Jose
+address_street=123, any street
+business=seller@paypalsandbox.com
+receiver_email=seller@paypalsandbox.com
+receiver_id=TESTSELLERID1
+residence_country=US
+item_name=something
+item_number=183
+quantity=1
+shipping=3.04
+tax=2.02
+mc_currency=USD
+mc_fee=0.44
+mc_gross=12.34
+mc_gross1=9.34
+txn_type=web_accept
+txn_id=24824258
+notify_version=2.1
+custom=xyz123
+charset=windows-1252
+verify_sign=A2rnR73vAJHlIYWiiUsPqm0i2z3AAPi6Jx6SzmC6ZhljMOcUA1rzaeti
+
+
+Furtherinfo:- nResource id #19
+POST /cgi-bin/webscr HTTP/1.0
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 843
+
+
+cmd=_notify-validate&test_ipn=1&payment_type=instant&payment_date=19%3A58%3A24+Aug.+23%2C+2009+PDT&payment_status=Completed&address_status=confirmed&payer_status=verified&first_name=John&last_name=Smith&payer_email=buyer%40paypalsandbox.com&payer_id=TESTBUYERID01&address_name=John+Smith&address_country=United+States&address_country_code=US&address_zip=95131&address_state=CA&address_city=San+Jose&address_street=123%2C+any+street&business=seller%40paypalsandbox.com&receiver_email=seller%40paypalsandbox.com&receiver_id=TESTSELLERID1&residence_country=US&item_name=something&item_number=183&quantity=1&shipping=3.04&tax=2.02&mc_currency=USD&mc_fee=0.44&mc_gross=12.34&mc_gross1=9.34&txn_type=web_accept&txn_id=24824258&notify_version=2.1&custom=xyz123&charset=windows-1252&verify_sign=A2rnR73vAJHlIYWiiUsPqm0i2z3AAPi6Jx6SzmC6ZhljMOcUA1rzaeti
+Completed

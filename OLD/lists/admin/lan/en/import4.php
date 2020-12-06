@@ -1,0 +1,38 @@
+<?php
+
+$lan = array(
+
+'cant_connect' => 'cannot connect to remote database',
+'no_users_to_copy' => 'No users to copy, is the prefix correct?',
+'remote_server' => 'Please enter details of the remote Server',
+'server' => 'Server:',
+'passwd' => 'Password:',
+'database' => 'Database Name:',
+'table_prefix' => 'Table prefix:',
+'usertable_prefix' => 'Usertable prefix:',
+'copy_lists' => 'Copy lists from remote server (lists are matched by name)',
+'users_as_html' => 'Mark new users as HTML:',
+'info_overwrite_existing' => 'If you check "Overwrite Existing", information about a user in the database will be replaced by the imported information. Users are matched by email.',
+'overwrite_existing' => 'Overwrite Existing:',
+'connecting_remote' => 'Making connection with remote database',
+'getting_data' => 'Getting data from ',
+'remote_version' => 'Remote version is',
+'remote_has' => 'Remote version has',
+'copying_lists' => 'Copying lists',
+'exists_locally' => 'exists locally',
+'created_locally' => 'created locally',
+'remote_list' => 'Remote list',
+'not_created' => 'not created',
+'copying_attribs' => 'Copying attributes',
+'attrib' => 'Attribute',
+'copying_users' => 'Copying users',
+'overwrite_local' => 'overwriting local data',
+'keep_local' => 'keeping local data',
+'new_user' => 'is a new user',
+'no_mapped_attrib' => 'Error, no mapped attribute for',
+'no_local_list' => 'Error, no local list defined for',
+'new users' => 'new users',
+'and' => 'and',
+'existing users' => 'existing users',
+);
+?>

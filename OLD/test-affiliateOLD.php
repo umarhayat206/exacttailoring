@@ -1,0 +1,3 @@
+<a href="http://www.exacttailoring.com/affilate" target="_blank"><img src="http://www.exacttailoring.com/banner/affilate1.gif" alt="Made your Exact Measurements Spacial Offer 1/2 Price" title="Made your Exact Measurements Spacial Offer 1/2 Price" /></a>
+ 
+<a href="http://www.exacttailoring.com/affilate" target="_blank"><img src="http://www.exacttailoring.com/banner/affilate2.gif" alt="Made your Exact Measurements Spacial Offer 1/2 Price" title="Made your Exact Measurements Spacial Offer 1/2 Price" /></a>

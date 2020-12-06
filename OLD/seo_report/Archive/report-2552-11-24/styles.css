@@ -1,0 +1,367 @@
+
+.reptitle{
+	height:23;
+	background: url("caption_c.gif");
+	font-weight : bold;
+	font-size : 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #444444;
+}
+.menusel_c{
+	align:center;
+	height:25;
+	background: url("menusel_c.gif");
+	font-weight : normal;
+	font-size : 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #444444;
+}
+.menusel_lc{
+	height:25;
+	width:6;
+	background: url("menusel_lc.gif");
+}
+.menusel_rc{
+	height:25;
+	width:6;
+	background: url("menusel_rc.gif");
+}
+
+.menu_c{
+	align:center;
+	height:25;
+	background: url("menu_c.gif");
+	font-weight : normal;
+	font-size : 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #444444;
+}
+.menu_lc{
+	height:25;
+	width:6;
+	background: url("menu_lc.gif");
+}
+.menu_rc{
+	height:25;
+	width:6;
+	background: url("menu_rc.gif");
+}
+
+
+.headercenter{
+	height:25;
+	background: url("caption_c.gif");
+	font-weight : bold;
+	font-size : 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #444444;
+}
+.headerleft{
+	height:25;
+	width:6;
+	background: url("caption_lc.gif");
+}
+.headerright{
+	height:25;
+	width:6;
+	background: url("caption_rc.gif");
+}
+
+.dashheader{
+	width:390;
+	border:0;
+	spacing:0;
+	padding:0;
+	align:center;
+	empty-cells: show;
+	font-size:  12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #444444;
+}
+
+.dashbody{
+	width:390;
+	border: 1px solid #CCCCCC;
+	spacing:0;
+	padding:0;
+	align:center;
+	empty-cells: show;
+	font-size:  12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #444444;
+}
+
+
+.reportheader{
+	width:800;
+	border:0;
+	spacing:0;
+	padding:0;
+	align:center;
+	empty-cells: show;
+	font-size:  12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #444444;
+}
+
+.reportbody{
+	width:800;
+	border: 1px solid #CCCCCC;
+	spacing:0;
+	padding:0;
+	align:center;
+	empty-cells: show;
+	font-size:  12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #444444;
+}
+
+.datatable{
+	width:800;
+	border:0;
+	spacing:0;
+	padding:0;
+	align:center;
+	empty-cells: show;
+	font-size:  12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #444444;
+}
+
+.wht_Font_11px{
+  font-size : 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #444444;
+  
+}
+
+.wht_Font_11px_Bold{
+  font-weight : bold;
+  font-size : 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #444444;
+   
+}
+
+.wht_Font_13px_Bold{
+  font-weight : bold;
+  font-size : 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #444444;
+   
+}
+
+.blk_Font_13px_Bold{
+  font-weight : bold;
+  font-size : 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #444444;
+  
+}
+
+.blk_Font_12px{
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #444444;
+}
+
+.blk_Font_11px{
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #444444;
+   
+}
+
+.blk_Font_11px_Bold, a.blk_Font_11px_Bold:links, a.blk_Font_11px_Bold:active, a.blk_Font_11px_Bold:visited{
+  font-weight : bold;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #444444;
+   
+}
+
+.RedText {
+	font-size: 12px; 
+	COLOR: #FF0000; 
+	FONT-FAMILY: arial, Helvetica, sans-serif; 
+	TEXT-DECORATION: none;
+}
+
+.RedTextBold {
+	font-size: 11px; 
+	font-weight : bold;
+	COLOR: #FF0000; 
+	FONT-FAMILY: arial, Helvetica, sans-serif; 
+	TEXT-DECORATION: none;
+}
+
+.BlueText {
+	font-size:  12px; 
+	COLOR: #444444; 
+	FONT-FAMILY: arial, Helvetica, sans-serif; 
+	TEXT-DECORATION: none;
+}
+.BlueTextBold {
+	font-size:  12px; 
+	font-weight : bold;
+	COLOR: #444444; 
+	FONT-FAMILY: arial, Helvetica, sans-serif; 
+	TEXT-DECORATION: none;
+}
+
+.button {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 11;
+ }
+
+td.engine_Cell_Head{
+  font-weight : bold;
+  font-size :  12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #444444;
+  padding-right: 10 px;
+  padding-bottom: 2 px;
+
+}
+
+td.engine_Cell, td.cell_Padding{
+  font-size :  12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #444444;
+  padding-right: 10 px;
+  padding-bottom: 2 px;
+  padding-top: 2 px;
+
+}
+
+a.topNav:link, a.topNav:active  {
+    font-weight : bold;
+	font-size : 11px;
+	text-decoration : none;
+	color : #FFFFFF;
+	font-family : Arial, Helvetica, sans-serif;
+	}
+
+a.topNav:visited  {
+    font-weight : bold;
+	font-size : 11px;
+	text-decoration : none;
+	color : #FFFFFF;
+	font-family : Arial, Helvetica, sans-serif;
+}	
+
+ a.topNav:Hover  {
+    font-weight : bold;
+	font-size : 11px;
+	text-decoration : none;
+	color : #444444;
+	font-family : Arial, Helvetica, sans-serif;
+	}
+
+a.smUrlLink:link, a.smUrlLink:active  {
+    font-weight : bold;
+	font-size :  12px;
+	text-decoration : none;
+	color : #444444;
+	font-family : Arial, Helvetica, sans-serif;
+	}
+
+a.smUrlLink:visited  {
+    font-weight : bold;
+	font-size :  12px;
+	text-decoration : none;
+	color : #444444;
+	font-family : Arial, Helvetica, sans-serif;
+	}	
+	
+a.smUrlLink:hover  {
+    font-weight : bold;
+	font-size :  12px;
+	text-decoration : none;
+	color : #FFFFFF;
+	font-family : Arial, Helvetica, sans-serif;
+	}
+	
+a.smUrlLinkUL:link, a.smUrlLinkUL:active  {
+    font-weight : bold;
+	font-size :  12px;
+	text-decoration : none;
+	color : #444444;
+	font-family : Arial, Helvetica, sans-serif;
+	}
+	
+a.smUrlLinkUL:visited  {
+    font-weight : bold;
+	font-size :  12px;
+	text-decoration : none;
+	color : #444444;
+	font-family : Arial, Helvetica, sans-serif;
+	}	
+	
+a.smUrlLinkUL:hover  {
+    font-weight : bold;
+	font-size :  12px;
+	text-decoration : none;
+	color : #E39215;
+	font-family : Arial, Helvetica, sans-serif;
+	}					
+	
+a.engineLink:link, a.engineLink:active,a.engineLink:visited  {
+    	font-weight : bold;
+	font-size :  12px;
+	color : #444444;
+	text-decoration : none;
+	font-family : Arial, Helvetica, sans-serif;
+	}
+	
+a.engineLink:hover  {
+    font-weight : bold;
+	font-size :  12px;
+	text-decoration : underline;
+	color : #000000;
+	font-family : Arial, Helvetica, sans-serif;
+	}	
+	
+a:link, a:active  {
+	font-size:  12px;
+	text-decoration : none;
+	color : #444444;
+	font-family : Arial, Helvetica, sans-serif;
+}			
+
+a:visited  {
+	font-size:  12px;
+	text-decoration : none;
+	color : #444444;
+	font-family : Arial, Helvetica, sans-serif;
+	}		
+
+a:hover  {
+	font-size:  12px;
+	text-decoration : none;
+	color : #E39215;
+	font-family : Arial, Helvetica, sans-serif;
+}	
+
+
+a.URLLink:link, a.URLLink:active  {
+	font-size :  12px;
+	text-decoration : none;
+	color : #444444;
+	font-family : Arial, Helvetica, sans-serif;
+	}			
+
+a.URLLink:visited  {
+	font-size :  12px;
+	text-decoration : none;
+	color : #444444;
+	font-family : Arial, Helvetica, sans-serif;
+	}		
+	
+a.URLLink:hover  {
+	font-size :  12px;
+	text-decoration : none;
+	color : #E39215;
+	font-family : Arial, Helvetica, sans-serif;
+	}	
+	

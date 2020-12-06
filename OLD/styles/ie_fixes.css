@@ -1,0 +1,23 @@
+#searchAPButton {
+	width: 20px;
+}
+#searchAP {
+	margin: 0px 0px 8px 15px;
+	padding: 0;	
+}
+#footPanels #left, #footPanels #center, #footPanels #right  {
+	margin: 8px 10px 20px 5px;
+}
+#directoryListings {
+	display: inline;
+	height: 30px !important;
+}
+#shirtSteps li {
+	margin-right: 5px;
+}
+.columnLeft {
+	width: 45%;
+}
+.columnRight {
+	width: 45%;
+}

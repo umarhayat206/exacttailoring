@@ -1,0 +1,710 @@
+/* Standard Tags */
+body {
+	font-family: arial, tahoma, verdana, sans-serif;
+	font: 1.4em/1.4em sans-serif ;
+	color: #333;
+}
+blockquote {
+	margin: 20px 30px;
+	padding: 0 40px;
+	background: url('images/quote_start.gif') no-repeat 0 0;
+}
+	blockquote .quoteFrom {
+		font-style: italic;	
+		background: url('images/quote_end.gif') no-repeat right top;
+		height: 40px;
+	}
+br {
+	clear: both;
+}
+fieldset {
+	border: 1px dashed #DBE4FF;
+	padding: 5px;
+}
+h1 {
+	text-indent: -6000px;
+	height: 95px;
+	width: 525px;
+	background: url("exact/logo.gif") no-repeat top left;
+	margin-top: 15px;	
+}
+h2 {
+	font-size: 1.6em;
+	margin-bottom: 15px;
+}
+h3 {
+	font-size: 1.4em;
+	font-weight: bold;
+	margin: 10px 0;
+}
+h4 {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+h5 {
+	font-weight: bold;
+	font-size: 1em;
+}
+	#innerContent h5 {
+		border: 1px solid #C8D6FF;
+		background: #DBE4FF;
+		padding: 3px;
+	}
+h6 {
+	font-weight: bold;
+}
+input, textarea, select {
+	margin: 3px;
+	float: right;
+}
+label {
+	margin: 3px;
+	float: left;
+}
+legend {
+	font-weight: bold;
+	font-size: 0.9em;
+	padding: 5px 20px 5px 5px;
+	background: url('images/sissors.gif') no-repeat right 7px;
+}
+p {
+	margin: 5px 0 10px 0;
+}
+strong {
+	font-weight: bold;
+}
+table {
+	
+}
+	th,td { 
+		padding: 3px; 
+	}
+	th {
+		font-weight: bold;
+	}
+
+/* Pseudo tags */
+a:link, a:visited {
+	color: #15428B;	
+}
+a:hover, a:active {
+	color: red;
+	text-decoration: none;
+}
+input:focus, select:focus, textarea:focus {
+	/*background:#FFFFDC;
+	color:black;*/
+}
+
+.spacialoffer{font-size:1.6em; color:#F51C0F; margin:35px 0;}
+
+/* Id's */
+#adminContent {
+	float: left;
+	width: 840px;
+}
+	#adminContent p {
+		margin: 10px 5px;
+	}
+#administration {
+
+}
+#administration .loginInfo {
+	text-align: center;
+	font-size: 0.9em;
+	margin:  2px;
+}
+#administration form {
+	width: 100%;
+	background: #E3EFFF;
+	border: 1px solid #6593CF;
+	font-size: 0.9em;
+	padding: 2px;
+}
+	#administration legend {
+		width: 98% !important;
+		background: #BFDBFF;
+		border: 1px solid #6593CF;
+		padding: 0 2px;
+		margin: 3px 0;
+	}
+#administration h2 {
+	color: #3e6aaa;
+	padding: 3px;
+	font-size:  1.4em;
+}
+#administration h3 {
+	color: #3e6aaa;
+	padding: 3px;
+	font-size:  1em;
+	font-weight: bold;
+}
+#administration .search {
+	width: 220px;
+	float: right;
+	margin: 1px 30px;
+	padding: 1px;
+	font-size: 8px !important;
+}
+	#administration .search input {
+		width: 80px;
+		font-size: 8px !important;
+	}
+	#administration .search .button {
+		font-size: 8px !important;
+		width: 50px;
+	}
+#adminHeader {
+	background: #E3EFFF url("images/admin_header.gif") repeat-x top left;
+	border-bottom: 1px solid #6593CF;
+}
+	#adminHeader .silvermover {
+		float: right;
+		margin: 0 5px 0 0 ;
+		padding-right: 18px;
+		font-size: 0.8em;
+		background: url("images/silver_button_icon.gif") no-repeat right center;
+	}
+#administration #logout {
+	float: left;
+	margin: 4px 0 0 5px;
+}
+	#administration #logout a {
+		font-weight: bold;
+		font-size: 0.9em;
+		padding-left: 20px;
+		text-decoration: none;
+		background: url("images/logout.gif") no-repeat left center;
+	}
+#adminNavigation {
+	background: #E3EFFF;
+	width: 150px;
+	float: left;
+	border-right: 1px solid #6593CF;
+	border-bottom: 1px solid #6593CF;
+	clear: left;
+}
+	#adminNavigation li {
+		width: 146px;
+		margin: 3px 0;	
+		padding: 2px;
+	}
+	#adminNavigation a:link, #adminNavigation a:visited {
+		text-decoration: none;
+		color: black;
+		display: block;
+		height: 22px;
+		padding: 0 3px;
+		border: 1px solid #E3EFFF;
+	}
+	#adminNavigation a:active, #adminNavigation a:hover {
+		/*background: url("images/button_hover_bg.gif") repeat-x top left;
+		border: 1px solid #ffbd69;*/
+		background: url("images/button_hover.gif") no-repeat top right;
+	}
+#adminProducts {
+	float: left;
+	width: 800px;
+}
+	#adminProducts .adminPanel {
+		width: 100% !important;
+	}
+#adminProductMeasurements, #adminFabrics {
+	margin: 5px;
+	width: 380px;
+	float: left;
+}
+	#adminProductMeasurements #addNew, #fabricForm #addNew, .addNew {
+		width: 100px;
+		float: left;
+		margin: 5px;
+		cursor: pointer;
+		border: 1px solid #7FAAFF;
+		border-bottom: 1px solid #666;
+		border-right: 1px solid #666;
+		text-align: center;
+		background: #AAD4FF;
+	}
+	#adminProductMeasurements h4, #fabricForm h4 {
+		font-size: 1em;
+	}
+#backToAdmin {
+	float: right;
+}
+#cartDetails {
+	width: 100%;
+}
+	#cartDetails img.clicker {
+		cursor: pointer;
+	}
+#catRequests {
+	padding: 10px;
+}
+#contactUsForm {
+	width: 400px;
+	margin: 20px auto;
+}
+#description {
+	width: 580px;
+	float: right;
+}
+#developerLinks {
+	margin-top: 10px;
+}
+#footer {
+	background: #DAE4FF;
+	/*border-top: 1px solid #9DA8C8;*/
+}
+#fabricChooser {
+	
+}
+	#fabricChooser li {
+		float: left;
+		width: 170px;
+		text-align: center;
+		border: 1px solid #eeeeee;
+		margin: 5px;
+	}
+	#fabricChooser li img {
+		border: none; /* 1px solid #b5c8ff */
+		margin-top: 5px;
+	}
+	#fabricChooser li a.fabricChoice {
+		background: url('images/shopping_cart.gif') no-repeat left center;
+		padding-left: 16px;
+
+	}
+#fabricTypeDetails img {
+	float: left;
+}
+#formMeasurements {
+	margin-bottom: 10px;
+}
+#footer p {
+	margin: 10px auto;
+	width: 960px;
+	text-align: center;
+}
+#footerMenu {
+	text-align: center;
+	border-top: 1px solid #A3B1DC;
+	border-bottom: 1px solid #A3B1DC;
+	background: #C8D6FF;
+	padding: 10px 0;
+}
+	#footerMenu li {
+		display: inline;
+		margin: 0 5px
+	}
+#frontBanner {
+	float: right
+}
+#header, #content, #innerFooter {
+	width: 960px;
+	margin: 0 auto;
+}
+#innerContent {
+	width: 740px;
+	float: left;
+	margin-top: 10px;	
+}
+#innerPic {
+	float: right;
+	margin: 0 40px;
+}
+#lblConfirm {
+	font-weight: bold;
+}
+#loginForm {
+	border: 1px solid #ddd;
+	line-height: 14px;
+	font-size: 12px;
+	text-align: center;
+	width: 150px;
+	padding: 1px;
+	margin: 5px auto 10px auto;
+	background: #eee url('images/lock.png') no-repeat 130px 5px;
+}
+	#loginForm legend, #loginForm fieldset {
+		background: none;
+		border: none;
+	}
+	#loginForm input {
+		width: 60px;
+	}
+		#loginForm a:link, #loginForm a:visited {
+		width: auto !important;
+	}
+#memberForm {
+	float: left;
+	margin: 15px;
+	width: 800px !important;
+}
+#memberList table, #productTypeList table {
+	width: 100%;
+}
+	#memberList th, #memberList td, #productTypeList th, #productTypeList td {
+		padding: 1px 5px 1px 1px;
+		font-size: 0.9em;
+	}
+	#memberList th, #productTypeList th {
+		font-weight: bold;
+		font-size: 0.8em;
+	}
+#memberNavigation {
+	margin: 10px;
+}
+	#memberNavigation li {
+		display: inline;
+		margin: 3px 5px;
+	}
+#memberSignUp {
+	margin: 10px;
+	width: 450px;
+	margin: 5px auto;
+}
+#navigationMenu {
+	width: 173px;
+	background: url('exact/menu_bottom.gif') no-repeat bottom center;
+	margin: 10px;
+	float: left;
+}
+	#navigationMenu ul {
+		padding: 10px 0;
+		width: 173px;
+		background: url('exact/menu_top.gif') no-repeat top center;	
+	}
+	#navigationMenu li {
+		margin: 3px;
+		border-bottom: 1px solid #004990;
+	}
+	#navigationMenu li.final {
+		border: none;
+	}
+	#navigationMenu a:link, #navigationMenu a:visited {
+		text-decoration: none;
+		width: 155px;
+		height: 18px;
+		display: block;
+		margin: 2px;
+	}
+#ordersList {
+	margin: 5px;
+}
+	#ordersList table select {
+		margin: 0 auto;
+		float: none !important;
+	}
+#orderListFilter {
+	float: right !important;
+	width: 450px !important;
+}
+#ordersListForm {
+	border: none !important;
+	background: none !important;
+}
+	#ordersListForm .cartItemDetails {
+		border: 3px solid #C8D6FF;
+		border-top: none;
+	}
+	#ordersListForm .clicker {
+		cursor: pointer;
+		cursor: url("styles/images/magnifier.png") , pointer;
+	}
+	#ordersListForm a {
+		margin-left: 3px;
+	}
+	#ordersListForm fieldset {
+		border: none !important;	
+	}
+	#ordersListForm table {
+		width: 100%;
+	}
+	#ordersListForm table td{
+		
+	}
+	#ordersListForm table th, #ordersListForm table td {
+		text-align: center;
+	}
+#orderStatus {
+	width: 100%;
+}
+	#orderStatus td, #orderStatus th {
+		text-align: center;
+	}
+	#orderStatus .clicker {
+		cursor: pointer;
+	}
+		#orderStatus .cartItemDetails {
+			font-size: small;
+			margin: auto;
+			border: 3px solid #C8D6FF;
+			border-top: none;
+		}
+		#orderStatus .cartItemDetails .description {
+			text-align: left;
+		}
+		#orderStatus div {
+			border-bottom: 1px solid #C8D6FF;
+		}
+#paymentOptions {
+	text-align: center;
+}
+#payWithPayPal fieldset {
+	border: none;
+}
+#productCategoryForm, #productTypeForm {
+	float: left;
+	width: 100% !important;
+	margin: 5px;
+}
+.productLargeImage {
+	float: left;
+}
+#productList, #formConfirmOrder {
+	width: 580px;
+	float: left;
+}
+	#productList li {
+		border: 1px solid #DBE4FF;
+		width: 180px;
+		height: 250px;
+		float: left;
+		margin: 3px;
+		padding: 2px;
+		overflow: hidden;
+		background: url('images/purchase_this_item.gif') no-repeat bottom center;
+	}
+	#productList li a {
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+	#productList li a:link, #productList li a:active, #productList li a:hover, #productList li a:visited {
+		text-decoration: none;
+	}
+	#productList li img {
+		margin: 0 auto;
+		display: block;
+	}
+#productOrder {
+	float: left;
+	width: 580px;
+}
+#productTree {
+	float: left;
+	width: 150px;
+	border-right: 1px solid gray;
+	margin: 0 5px 10px 0;
+}
+#productTree li {
+	clear: both;
+}
+#productTypeListFilter {
+	margin: 1px !important;
+}
+#productMeasurementGroupList {
+	float: left;
+}
+#samplesButton {
+	clear:both;
+	float:none;
+	height:auto !important;
+	padding:0 0 0 35px;
+}
+#selectedFabric {
+	width: 170px;
+	text-align: center;	
+	border: 1px solid #eeeeee;
+	margin: 5px;
+	float: left;
+}
+	#selectedFabric img {
+		margin-top: 5px;
+		border: 1px solid #b5c8ff;
+	}
+#shirtDesignerForm {
+	border: 1px solid #eeeeee;
+	width: 500px;
+	padding: 3px;
+	float: left;
+	margin: 5px;
+}
+	#shirtDesignerForm fieldset {
+		width: 200px;
+		border: none;
+		border-right: 1px solid #eeeeee;
+
+	}
+#shirtSteps {
+	margin: 10px 0;
+}
+	#shirtSteps li {
+		display: inline;
+		padding-right: 15px;
+		background: url('images/chevron.gif') no-repeat center right;
+	}
+	#shirtSteps li.finalStep {
+		background: none;
+	}
+	#shirtSteps li.currentStep {
+		font-weight: bold;
+	}
+#shirtView {
+	float: right;
+}
+	#shirtView, #shirtView div {
+		width: 275px;
+		height: 300px;
+	}
+#shoppingCart {
+	margin: 5px 0 0 0;
+	float: right;
+	width: 210px;
+	font-size: .8em;
+	padding: 0 0 0 80px;
+	background: url('images/shopping_cart_big.gif') no-repeat top left;
+}
+	#shoppingCart table {
+		width: 140px;
+		float: left;
+	}
+	#shoppingCart td {
+		padding: 0;
+	}
+	#shoppingCart th, #shoppingCart caption {
+		font-weight: bold;
+	}
+	#shoppingCart a {
+		float: right;
+		text-indent: -6000px;
+		background: url('images/but_checkout.gif') no-repeat top left;
+		width: 60px;
+		height: 23px;
+		margin: 57px 0 0 0;
+	}
+#shoppingCartForm {
+	margin-bottom: 10px;
+}
+	#shoppingCartForm #selectedFabric {
+		margin: 10px auto;
+		float:none;
+	}
+	#shoppingCartForm #selectedFabric a {
+		display: none;
+	}
+#silvermover {
+	text-align: center;
+	font-style: italic;
+	font-size: 0.8em;
+}
+#sEmbroideryText {
+	width: 30px;
+}
+#strapline {
+	height: 35px;
+	background: #b5c8ff;
+	border-top: 1px solid #0318f1;
+	border-bottom: 1px solid #0318f1;
+	text-align: center;
+}
+	#strapline h2 {
+		margin-top: 2px;
+		height: 28px;
+		text-indent: -6000px;
+		background: url('exact/homepage_banner.jpg') no-repeat center;
+	}
+#thankYou {
+	background: #DBE4FF;
+	border: 1px solid #C8D6FF;
+	width: 500px;
+	margin: 20px auto;
+	text-align: center;
+	padding: 5px;
+	
+}
+#userLoggedInPanel {
+	text-align: center;
+	padding: 5px;	
+}
+
+/* Classes */
+a.measurementDelete:link, a.fabricDelete:link {
+	color: red;
+	text-decoration: none;
+}
+a.measurementDelete:hover, a.fabricDelete:hover {
+	color: orange;
+}
+.adminPanel {
+	background: url('images/top_fade.gif') repeat-x top left;
+	border: 1px solid #999;
+	margin: 5px;
+	float: left;
+}
+	.adminPanel .addNew {
+		float: right;
+		margin: 5px;
+	}
+	.adminPanel .action img {
+		border: 1px solid #eee !important;
+		border-right: 1px solid #ccc !important;
+		border-bottom: 1px solid #ccc !important;
+		padding: 2px;
+	}
+	.adminPanel .action img:hover {
+		border: 1px solid #eee !important;
+		border-top: 1px solid #ccc !important;
+		border-left: 1px solid #ccc !important;
+		padding: 2px;
+	}
+.catActions{
+	width: 50px;
+	float: left;
+}
+.catSpacer {
+	width: 5px;
+	height: 20px;
+	display: block;
+	float: left;
+}
+.centered {
+	text-align: center;
+}
+.clickable {
+	cursor: pointer;
+}
+	h5.clickable {
+		background: #DBE4FF  url('images/plus_minus.gif') no-repeat left center !important;
+		padding-left: 16px !important;
+	}
+.columnLeft {
+	width: 48%;
+	float: left;
+}
+.columnRight {
+	width: 48%;
+	float: right;
+}
+.number {
+	text-align: right;
+}
+.points {
+	list-style: disc;
+	margin-left: 20px;
+}
+.required {
+	font-size: 1.4em;
+	color: red;
+}
+.smallText {
+	font-size: 80%;
+}
+.validationArea {
+	color: red;
+}
+
+.txtProduct{
+	color:#15428B;
+	font-weight:bold;
+}

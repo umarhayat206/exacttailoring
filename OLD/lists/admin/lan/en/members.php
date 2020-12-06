@@ -1,0 +1,37 @@
+<?php
+
+$lan = array(
+
+'Add a user' => 'Add a user',
+'add user' => 'Add User',
+'Members of' => 'Members of',
+'Tag all users in this page' => 'Tag all users in this page',
+'back to this list' => 'back to this list',
+'Download users on this list as a CSV file' => 'Download users on this list as a CSV file',
+'Please enter a listid' => 'Please enter a listid',
+'users were moved to' => 'users were moved to',
+'users were copied to' => 'users were copied to',
+'users were deleted from this list' => 'users were deleted from this list',
+'Users found, click add to add this user' => 'Users found, click add to add this user',
+'No user found with that email' => 'No user found with that email',
+'Inserting user' => 'Inserting user',
+'Users on this list' => 'Users on this list',
+'Listing user' => 'Listing user',
+'Listing user 1 to 50' => 'Listing user 1 to 50',
+'Members' => 'Members',
+'Delete' => 'Delete',
+'# msgs' => '# msgs',
+'# rss' => '# rss',
+'What to do with "Tagged" users' => 'What to do with "Tagged" users',
+'This will only process the users in this page that have the "Tag" checkbox checked' => 'This will only process the users in this page that have the "Tag" checkbox checked',
+'move' => 'Move',
+'copy' => 'Copy',
+'nothing' => 'Nothing',
+'from this list' => 'from this list',
+'What to do with all users' => 'What to do with all users',
+'This will process all users on this list' => 'This will process all users on this list',
+'do it' => 'do it',
+'Import Users to this list' => 'Import Users to this list',
+'Add' => 'Add',
+);
+?>
